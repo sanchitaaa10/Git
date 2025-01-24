@@ -12,11 +12,16 @@ class DateTimeInfo:
     def get_day(self):
         """Returns the current day of the week."""
         return datetime.now().strftime("%A")
-        
+    
+    def get_month(self):
+        """Returns the current month."""
+        return datetime.now().strftime("%B")
+
 dt_info = DateTimeInfo()
 print("Time:", dt_info.get_time())
 print("Date:", dt_info.get_date())
 print("Day:", dt_info.get_day())
+print("Month:", dt_info.get_month())
 
 
 
