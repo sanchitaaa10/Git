@@ -16,12 +16,17 @@ class DateTimeInfo:
     def get_month(self):
         """Returns the current month."""
         return datetime.now().strftime("%B")
+    
+    def get_year(self):
+        """Returns the current year."""
+        return datetime.now().year
 
 dt_info = DateTimeInfo()
 print("Time:", dt_info.get_time())
 print("Date:", dt_info.get_date())
 print("Day:", dt_info.get_day())
 print("Month:", dt_info.get_month())
+print("Year:", dt_info.get_year())
 
 
 
