@@ -1,4 +1,5 @@
-from datetime import datetime
+from datetime import datetime  
+# Importing datetime module to fetch real date and time
 
 class DateTimeInfo:
     def get_time(self):
