@@ -1,5 +1,4 @@
 from datetime import datetime
-#code kara ani changes proper kara
 
 class DateTimeInfo:
     def get_time(self):
@@ -29,4 +28,3 @@ print("Date:", dt_info.get_date())
 print("Day:", dt_info.get_day())
 print("Month:", dt_info.get_month())
 print("Year:", dt_info.get_year())
-
